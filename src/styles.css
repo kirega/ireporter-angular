@@ -43,6 +43,14 @@ html {
   font-size: 40px !important;
 }
 
+.top-nav a {
+  text-decoration: none;
+  color: #F2B134;
+}
+
+.top-nav a:hover {
+  color: azure !important;
+}
 /*****************
 Landing Page banner
 ******************/
@@ -96,7 +104,10 @@ Landing Page banner
   transition: ease-in 0.2s;
   color: azure !important;
 }
-
+.banner-footer{
+  color: #000;
+  font-size: 60px;
+}
 .main-footer {
   text-align: center;
   background-color: #112f41;
@@ -106,4 +117,8 @@ Landing Page banner
   height: 30px;
   padding: 10px;
   position: absolute;
+}
+.page-not-found{
+  font-family: 'Dancing Script', cursive;
+  font-size: 120px !important;
 }
